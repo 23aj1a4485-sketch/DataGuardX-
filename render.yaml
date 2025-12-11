@@ -1,0 +1,10 @@
+# render.yaml - static site config for Render
+services:
+  - type: static
+    name: dataguardx
+    env: production
+    staticPublishPath: /
+    branch: main
+    buildCommand: null
+    region: oregon
+    plan: free
